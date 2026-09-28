@@ -9,7 +9,7 @@ import shap
 # -----------------------------
 
 st.set_page_config(
-    page_title="AI Air Quality Prediction System",
+    page_title="AI-Powered Explainable Air Quality Prediction and Advisory System",
     page_icon="🌍",
     layout="wide"
 )
@@ -35,12 +35,10 @@ explainer = shap.Explainer(model)
 # Title
 # -----------------------------
 
-st.title("🌍 AI-Powered Air Quality Prediction and Monitoring System")
+st.title("🌍 AI-Powered Explainable Air Quality Prediction and Advisory System")
 
 st.write(
-    "This system uses Machine Learning to predict PM2.5 "
-    "concentration based on meteorological conditions, with "
-    "Explainable AI to understand the factors influencing each prediction. "
+    "The project combines prediction, explainability and an interactive dashboard to make machine learning-based PM2.5 estimation more understandable and accessible."
     "Created by Rohan Kulkarni"
 )
 
